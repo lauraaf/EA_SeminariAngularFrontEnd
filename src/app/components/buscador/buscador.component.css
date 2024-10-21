@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAF3E0; /* Blanco roto para el fondo */
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor de búsqueda */
+.search-container {
+  background-color: #4C0000; /* Rojo oscuro para el fondo */
+  color: #FAF3E0; /* Blanco roto para el texto */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Ajusta el tamaño máximo según sea necesario */
+  width: 90%; /* Ajusta el ancho a un 90% */
+  margin: 20px auto; /* Centrar horizontalmente con un margen superior */
+}
+
+/* Título del buscador */
+.search-container h2 {
+  color: #FAF3E0; /* Blanco roto para los títulos */
+  font-size: 1.8rem;
+  margin-bottom: 15px; /* Espaciado inferior */
+}
+
+/* Estilos para el campo de búsqueda */
+.form-group {
+  margin-bottom: 15px; /* Espacio entre el grupo de formulario y otros elementos */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 2px solid #4C0000; /* Rojo oscuro para los bordes */
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Estilo de foco para el campo de búsqueda */
+input[type="text"]:focus {
+  border-color: #4CAF50; /* Verde hoja para el foco */
+}
+
+/* Estilos para los resultados */
+h3 {
+  margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilos para la lista de resultados */
+ul {
+  list-style: none; /* Eliminar estilo de lista */
+  padding: 0; /* Eliminar padding */
+  margin: 0; /* Eliminar margin */
+}
+
+li {
+  background-color: #8B0000; /* Rojo vino para cada item */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+li:hover {
+  background-color: #4C0000; /* Cambiar color de fondo al pasar el mouse */
+}
+
+strong {
+  display: block; /* Mostrar como bloque */
+}
+
+/* Mensaje cuando no se encuentran resultados */
+p {
+  color: #FFA07A; /* Color de mensaje de advertencia */
+}
+
+/* Mensaje de error */
+.error-message {
+  color: #ff4c4c;
+  font-weight: bold;
+  margin-top: 10px; /* Ajuste de margen superior */
+}
